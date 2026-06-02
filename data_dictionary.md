@@ -4,7 +4,7 @@ This document describes the dataset used in the Food Trends: Understanding Custo
 
 📂 Dataset Overview
 
-The dataset contains information about restaurants, customer ratings, pricing, delivery performance, and sentiment analysis.
+The dataset contains information related to restaurants, customer ratings, pricing patterns, cuisine preferences, delivery performance, geographic distribution, and customer sentiment. It is used to analyze food trends, customer behavior, operational efficiency, and market performance through interactive Power BI dashboards.
 
 🧾 Column Descriptions
 
@@ -24,8 +24,11 @@ Delivery Time: Time taken by the restaurant to deliver orders
 Delivery Segment: Category of delivery speed (Fast, Moderate, Slow)
 Restaurant Sentiment: Overall sentiment derived from customer reviews (Positive, Neutral, Negative)
 
+
 📊 Notes
 
-- Price segments are derived based on pricing ranges
-- Rating segments are categorized based on average rating thresholds
-- Sentiment analysis is performed using customer feedback
+- Price segments are categorized based on restaurant pricing levels.
+- Rating segments are derived using average customer rating ranges.
+- Delivery segments are created using delivery time thresholds.
+- Sentiment categories are generated from customer review and rating analysis.
+- Several calculated measures and KPIs are developed using DAX for dashboard reporting.
